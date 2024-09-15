@@ -1,8 +1,16 @@
 #root {
-  height: 90vh;
+  height: 80vh;
   overflow-y: hidden;
   padding: 0;
   margin: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  h1 {
+    margin: 20px 0 0;
+  }
 }
 
 .password-container {

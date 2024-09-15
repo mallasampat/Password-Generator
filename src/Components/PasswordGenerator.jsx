@@ -39,6 +39,10 @@ const PasswordGenerator = () => {
   }, [checkBoxData]);
 
   return (
+    <>
+    <div className='heading'>
+      <h1>Generate a Password</h1>
+    </div>
     <div className='password-container'>
       <div className='password-generator'>
         <div className='password-header'>
@@ -75,6 +79,7 @@ const PasswordGenerator = () => {
       {errorMessage && <span className='err-message'>{errorMessage}</span>}
       </div>
     </div>
+    </>
   )
 }
 
