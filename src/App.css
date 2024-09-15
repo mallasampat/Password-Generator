@@ -1,0 +1,91 @@
+#root {
+  height: 90vh;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.password-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+      padding: 10px;
+  }
+  span {
+    font-size: 25px;
+  }
+}
+
+.password-generator {
+  width: 50%;
+  height: 55%;
+  background-color: black;
+  padding: 20px;
+  margin: 10px;
+}
+
+.char-length {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  span {
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+}
+
+.slider {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.checkbox-children {
+  width: 48%;
+  display: flex;
+  gap: 5px;
+  font-size: 1.2rem;
+  input, label {
+      cursor: pointer;
+  }
+}
+
+.password-container button {
+  background-color: rgb(38, 208, 191);
+  border-radius: 0.5rem;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.genertae-password {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.err-message {
+  color: red;
+  font-size: 15px;
+  padding: 5px 0;
+}
